@@ -1,0 +1,779 @@
+@charset "utf-8";
+
+/* CSS Document for CSCI50600 JAGGER JAGUAR */
+body,html{
+        font-family:'Arial';
+		color: #21656F;
+}
+input#login_input_first_name
+,input#login_input_last_name
+,input#login_input_username
+,input#login_input_email
+,input#login_input_password_new
+,input#login_input_password_repeat
+{
+	position:absolute;
+	left: 140px;	
+}
+div#regFirstName
+,div#regLastName
+,div#regUserName
+,div#regEmail
+,div#regPassword
+,div#regRePassword
+,input[name^="register"]
+{
+    position:relative;	
+    left:200px;
+}
+div#regFirstName
+{
+	top:80px;
+}
+div#regLastName
+{
+	top:100px;
+}
+div#regUserName
+{
+	top:130px;
+}
+input#login_input_username
+{
+	top:0px;
+}
+p#userNameInst
+{
+	position:relative;
+	left:140px;
+}
+
+div#regEmail
+{
+	top:130px;
+}
+div#regPassword
+{
+	top:160px;
+}
+input#login_input_password_new
+{
+	top: -5px;
+}
+p#pwInst
+{
+	position:relative;
+	top:-5px;
+	left:140px
+}
+div#regRePassword
+{
+	top:150px;
+}
+input[name^="register"]
+{
+	top:180px;
+	left: 447px;
+	width:100px;
+}
+/*
+
+
+
+*/
+/*Position, Size Section*/
+#homeLinkDiv
+,#aboutLinkDiv
+,#profileLinkDiv
+,#signUpLinkDiv
+,#signOutLinkDiv
+,#followingLinkDiv
+,#followersLinkDiv
+,#loginDiv{
+    position:absolute;
+    margin-left: 10px;
+    top:10px;  
+    display:inline;
+	width: 60px;
+	float:left;    
+}
+#pagecontent{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    top:5px;
+    width:960px;
+    height: 590px; 
+}
+#wrapper {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    height:590px;
+}
+
+
+#NewUser{
+    position:absolute;
+    top:80px;
+    left:933px;
+	width: 210px;
+    z-index:2;  
+}
+
+#newUserP
+{
+	position:relative;
+	left:47px;
+}
+#navMenuUser {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+	height:35px;
+    top: -5px;
+	width: 1005px;
+    margin-top: 8px;
+    z-index: 1;
+}
+ul{
+    list-style:none;
+}
+div#loginDiv {
+	width:250px;
+	margin: 0 auto;
+    z-index: ;	
+}
+#UNLabel{
+    position:relative;
+    right:6px;
+}
+#logUserName{
+    width:150px;
+}
+#logPassword{
+    position:relative;
+    left:10px;
+    width:152.5px;
+}
+#logSubmitLogin{
+    position:relative;
+    top:5px;
+    left: 200px;
+}
+div#roarContainer{
+    position: relative;
+    top: 50px;
+    margin-left:175px;
+    margin-right:175px;    
+}
+div#aboutContainer{
+    position: relative;    
+    margin-left:125px;
+    margin-right:125px;
+}
+div.aboutImageDiv{
+    height: 100px;
+    width: 100px;
+}
+div.aboutContentDiv{
+    position:relative;
+    left: 125px;
+    top: -116px;
+    width: 600px;
+    height: 100px;    
+}
+div.aboutDiv{
+    height:140px;
+}
+
+p.postingUser{
+    position:relative;
+    z-index:1;
+    top: -10px;
+    left:4px;   
+}
+div.roar{
+    position:relative;
+    top: 10px;
+}
+div.roarSpacer{
+       height:1px;
+       margin-top:-8px;
+}
+
+div.roarContent{
+    position:relative;
+    top:-16px;
+    height: 70px;
+}
+p.pDate{
+    position:relative;
+    text-align:right;
+    margin-right: 5px;
+    margin-top: 1px
+}
+p.post{
+    position:relative;
+    left:5px;
+    top:10px;
+    
+}
+p#loginDesc{
+    position:absolute;
+    left: 5px;
+    top:60px
+}
+p.postdate{
+    position:relative;
+    z-index:1;
+    margin-left:510px;
+    margin-top:-36px;
+	width: 300px;
+}
+ul#flw1
+,ul#flw2
+,ul#flw3
+{
+	position: absolute;
+	width: 180px;
+
+}
+ul#flw1
+{
+	left: 165px;
+}
+ul#flw2
+{
+	
+	left:535px;	
+}
+ul#flw3
+{
+	position:relative;
+    margin-left:auto;
+	margin-right:auto;
+	right: 20px;
+}
+.User
+{
+	position: relative;
+	height: 40px;
+	top:15px;
+	text-align:center;
+}
+.flwContainer
+{
+	padding-top: 8px;
+}
+#loginDiv{
+    padding: 8px 30px;
+}
+#homeLinkDiv
+,#aboutLinkDiv
+,#profileLinkDiv
+,#signUpLinkDiv
+,#signOutLinkDiv
+,#followingLinkDiv
+,#followersLinkDiv{
+    height:35px;
+    width: 120px;
+}
+#homeLinkDiv{
+    margin-left:-32px;
+}
+#loginDiv{
+    left:787px;
+    top:4px;    
+    z-index: 1;
+}
+#signOutLinkDiv{
+    left:865px
+}
+#followingLinkDiv
+,#signUpLinkDiv{
+	left:346px;    
+}
+#followersLinkDiv
+{
+    left:519px;
+}
+#aboutLinkDiv{
+    left:173px;
+}
+#profileLinkDiv
+{
+	left:692px;      
+}
+p.menuP{
+    position:relative;
+    top:-2px;
+    text-align:center;
+}
+
+#homeLinkDiv:hover{
+    margin-left:-32px;
+}
+
+[name=newPost]{
+    position:relative;
+    margin-top:10px;
+    margin-left:177px;    
+}	
+div.roarContent{
+	
+}
+p.post{
+	height:20px;
+	width:610px;
+	max-width: 605px;
+	margin-right: 800px;
+	word-wrap: break-word;
+}
+
+
+#newPostTextArea{
+    position:relative;
+	margin-left:280px;
+}
+#submitNewPost{
+    position:absolute;
+    margin-top:90px;
+    margin-left:-120px;
+    width:120px;
+	z-index: 50;
+}
+input.login_input{
+    
+    width:200px
+}
+
+div#viewAll
+,div#viewAllp
+,div#follow
+,div#nofollow
+,div#olderPostsdiv
+,div#newerPostsdiv
+,div#newerPostsdivp
+,div#olderPostsdivp
+{
+	position:relative;
+	top:0;
+	left:100;
+	height:20px;
+	width:120px;
+}
+p.oldPosts
+,p.newPosts
+,p#pViewAll
+,p.oldPostsp
+,p.newPostsp
+,p#pViewAllp
+{
+	position:relative;
+	top:-4px;
+}
+
+div#follow
+,div#nofollow
+,div#viewAll
+,div#viewAllp
+{ 	position: absolute;
+	top: 200px;
+	left:-100px;
+	margin-left:auto;
+	margin-right:auto;
+	height:60px;
+	width: 200px;
+}
+div#viewAll
+,div#viewAllp
+{
+	left:-100px;
+	top: 300px;
+}
+p.pFollow
+,p.pnoFollow
+{
+	position:relative;
+	top:-4px;
+	text-align:center;	
+}
+p#unFollow2{
+	position:relative;
+	top:-4px;
+}
+div#olderPostsdiv
+,div#olderPostsdivp
+{
+	position: absolute;
+	top:395px;
+	left: -70px;
+	
+}
+div#newerPostsdiv
+,div#newerPostsdivp
+{
+	position: absolute;
+	top:445px;
+	left: -70px;
+}
+
+
+div#olderPostsdiv:hover
+{
+	position: absolute;
+
+	
+}
+div#newerPostsdiv:hover
+{
+	position: absolute;
+
+}
+div#searchFormDiv
+{
+	position:absolute;
+	z-index: 14;
+}
+div#roarPage
+{
+	position:relative;
+	top:-7px;
+}
+div#roarPage2
+{
+	position:relative;
+	top:-14px;
+}
+div#follow:hover
+{
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	height:60px;
+	width: 200px;
+}
+
+div#newerPostsdiv:hover
+{
+	position: absolute;
+}
+div#follow:hover
+{
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	height:60px;
+	width: 200px;
+}
+
+div.inactive
+{
+	opacity: 0.7;
+}
+#navMenuUser
+{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+	height:35px;
+    top: -13px;
+	width: 1005px;
+    margin-top: 8px;
+    z-index: 1;
+}
+
+
+div.roarHeader{
+    position:relative;  
+    height: 15px;
+    border: 1px solid;
+
+}
+div.messages
+{
+
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    width:600px;
+	z-index: 20;
+	border: none;
+	color: red;
+	opacity: .5;
+
+	
+}
+p.message
+{
+	position:relative;
+    border:solid 1px #BBB;
+	padding-top: 5px;
+	height: 25px;	
+	background-color: black;
+	border: solid 1px #666;
+}
+p#error
+{
+	position:relative;
+	top: -6px;
+}
+div#searchFormDiv
+{
+	position:absolute;
+	z-index: 14;
+	top:299px;
+	left:820px;
+}
+#submitSearch
+{
+	position:relative;
+	top:6px;
+	left:171px
+}
+
+/*Start Border/Shadow Section */
+#homeLinkDiv
+,#aboutLinkDiv
+,#profileLinkDiv
+,#signUpLinkDiv
+,#signOutLinkDiv
+,#followingLinkDiv
+,#followersLinkDiv
+,#loginDiv
+,#navMenuUser{
+	    border-radius: 2px;  
+}
+#navMenuUser
+#pagecontent
+,#homeLinkDiv
+,#aboutLinkDiv
+,#profileLinkDiv
+,#signUpLinkDiv
+,#signOutLinkDiv
+,#followingLinkDiv
+,#followersLinkDiv
+,#loginDiv
+,#navMenuUser
+,div#pagecontent
+,div.aboutImageDiv
+,div.roarContent
+,#submitNewPost
+,#submitSearch
+,input.button
+,#wrapper
+,textArea{
+    border:solid 1px #000;    
+}
+
+div.roarContent{
+    border-top: none;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+TextArea{
+    border: solid 2px #A68131; 
+}
+div#viewAll
+,div#viewAllp
+,div#follow
+,div#nofollow
+,div#olderPostsdiv
+,div#newerPostsdiv
+,div#newerPostsdivp
+,div#olderPostsdivp
+,div#errorDiv
+{
+	border: 1px solid #777;
+}
+/*Start Shadow Section*/
+#pagecontent
+ ,div#loginDiv
+,#navMenuUser
+,div.roarHeader{
+    box-shadow: -10px 10px 50px rgba(0,0,0,.5);
+}
+div.button:hover
+{
+	box-shadow: -1px 0px 5px rgba(0,0,0,.5);
+}
+div.inactive
+,div.inactive:hover
+,div.button
+,input.button
+{
+    box-shadow: -2px 2px 10px rgba(0,0,0,.5);
+}
+textArea{
+	 box-shadow: inset -1px 1px 8px rgba(0,0,0,.5); 
+}
+#newPostTextArea{
+    box-shadow: inset -2px 2px 25px rgba(0,0,0,.5);    
+}
+
+/*Start background, font Section Section*/
+
+#navMenuUser
+,div.roarHeader
+{
+	background-color:#FFC9C5;
+    background: -moz-linear-gradient(top,  #FFC9C5 0%, #A63931 150%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFDE96), color-stop(150%,#A63931)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FFC9C5 0%,#A63931 150%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FFC9C5 0%,#A63931 150%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #FFC9C5 0%,#A63931 150%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FFC9C5 0%,#A63931 150%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFC9C5', endColorstr='#A63931',GradientType=0 ); /	
+}
+div.roarContent
+,textarea
+{
+	background-color: #FFE6B1;
+    background: -moz-linear-gradient(top,  #FFE6B1 0%, #A68131 150%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFE6B1), color-stop(100%,#A68131 )); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FFE6B1 0%,#A68131  150%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FFE6B1 0%,#A68131  150%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #FFE6B1 0%,#A68131  150%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FFE6B1 0%,#A68131  150%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFE6B1', endColorstr='#A68131 ',GradientType=0 ); /	
+	
+}
+div.button:hover
+,#submitNewPost:hover
+,#submitSearch:hover
+,input.button:hover
+{
+    background: #A68131; /* Old browsers */
+    background: #FFDE96; /* Old browsers */
+    background: -moz-linear-gradient(top,  #A68131  0%, #FFDE96 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #A68131), color-stop(0%,#FFDE96)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #A68131  0%, #FFDE96 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #A68131  0%, #FFDE96 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #A68131  0%, #FFDE96 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #A68131  0%, #FFDE96 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFDE96', endColorstr='#A68131',GradientType=0 );
+
+}
+
+div.inactive
+,div.inactive:hover
+,div.button
+,div#loginDiv
+,input.button
+,#submitNewPost
+,#submitSearch
+{
+    background: #A68131; /* Old browsers */
+    background: #FFDE96; /* Old browsers */
+    background: -moz-linear-gradient(top,  #FFDE96 0%, #A68131 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFDE96), color-stop(100%,#A68131)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FFDE96 0%,#A68131 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FFDE96 0%,#A68131 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #FFDE96 0%,#A68131 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FFDE96 0%,#A68131 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFDE96', endColorstr='#A68131',GradientType=0 ); /* IE6-9 */
+}
+#pagecontent{
+    background-color:#21656F;
+    background: -moz-linear-gradient(bottom,  #94CDD5 -70%, #21656F 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, bottom, top, color-stop(70%,#94CDD5 ), color-stop(100%,#21656F)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom,  #94CDD5  -70%,#21656F 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom,  #94CDD5  -70%,#21656F 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom,  #94CDD5 -70%,#21656F 100%); /* IE10+ */
+    background: linear-gradient(to top,  #94CDD5 -70%,#21656F 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94CDD5', endColorstr='#21656F',GradientType=0 ); 
+
+}
+#wrapper {
+    background-color:#999;
+    background-color:#21656F;
+    background: #A68131; /* Old browsers */
+    background: #FFDE96; /* Old browsers */
+    background: -moz-linear-gradient(bottom,  #999 -20%, #CDCDCD 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, bottom, top, color-stop(-20%,#999 ), color-stop(100%,#CDCDCD)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(bottom,  #999  -20%,#CDCDCD 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(bottom,  #999  -20%,#CDCDCD 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(bottom,  #999 -20%,#CDCDCD 100%); /* IE10+ */
+    background: linear-gradient(to top,  ##999 -20%,#CDCDCD 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999', endColorstr='#CDCDCD',GradientType=0 ); 
+}
+p.oldPosts
+,p.newPosts
+,p#pViewAll
+,p.oldPostsp
+,p.newPostsp
+,p#pViewAllp
+,p.pFollow
+,p.pnoFollow
+,a#SignUp
+{
+	font-size:8pt;
+	text-align:center;	
+}
+p#loginDesc
+,p.postdate
+,#NewUser
+,a
+,a:visited
+,.menuP{
+   	font-size: 10px;
+}
+p.oldPostsp
+,p.newPostsp
+,p#pViewAllp
+{
+	color:#777;
+}
+a, a:visited
+{
+	color: #000;
+	text-decoration:none;
+}
+body
+{
+	background-color:#BFAD84;
+}
+
+
+
+#NewUser{
+    color: #444;    
+}
+a#SignUp
+{
+    color:#FFDE96; 
+}
+div.aboutImageDiv{
+    background-color:#FFDE96;
+}
+
+p.postingUser{
+    font-size:12px;
+}
+p.roarSpacer{
+    font-size:2px;    
+}
+#newUserP
+{
+	color: #FFF;
+	font-size: 7pt;
+}
+a#SignUp:hover{
+    text-decoration:underline;
+}
+p#error
+{
+	font-size:10pt;
+	text-align:center;
+}
+form[name^="registerform"]
+{
+	color:black;
+	font-size:14px;
+}
+p#userNameInst
+,p#pwInst{
+	font-size:10px;
+}
